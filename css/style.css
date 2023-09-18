@@ -1,0 +1,189 @@
+h1,h2,h3,h4,h5,a,li,label,button,p{
+	font-family: Bahnschrift;
+}
+
+.image {
+	position: relative;
+	height: 400px; /* for IE 6 */
+}
+
+.text-center{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	font-size: 50px;
+}
+
+.img{
+    float: right;
+}
+
+.img2{
+    float: left;
+    left:20px;
+    top:-10px;
+}
+
+.company-text{
+    text-align: center;
+    color: #0E6D8F;
+}
+
+.card{
+    width: 330px;
+    margin-bottom:30px;
+}
+.card-body a{
+    color: #7D7D7D;
+    font-family: Bahnschrift;
+    font-size: 23px;
+    text-align: center;
+}
+
+.footer{
+    background:#000000;
+    padding: 40px;
+}
+.footer h4{
+    color: #D15501;
+}
+
+.footer p, li{
+    color: white;
+}
+
+.footer hr{
+    color: #D15501;
+}
+
+.footer a{
+    text-decoration:none;
+}
+
+.image-header{
+	height: 150px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+
+.divide{
+    color: #0E6D8F;
+}
+
+.pravo{
+    top: 13px;
+    position: relative;
+}
+
+.social-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.logo {
+    margin-left: 100px;
+  }
+  
+ .menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    display: flex;
+  }
+  
+.menu-items li {
+    margin-right: 150px;
+  }
+
+.navbar {
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 100px;
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360px;
+    padding: 10px;
+    z-index: 999;
+}
+
+.navbar li:hover .dropdown-content {
+    display: block;
+}
+
+.darkened-image {
+    filter: brightness(0.6);
+    z-index:1;
+}
+
+.very-darkened-image{
+  filter: brightness(0.5);
+  z-index:1;
+}
+
+ .card-text a{
+    text-decoration: none;
+ }
+
+ .contact-button {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 15px;
+  border: none;
+}
+
+.contact-button:hover {
+  background-color: gray;
+  color: orange;
+}
